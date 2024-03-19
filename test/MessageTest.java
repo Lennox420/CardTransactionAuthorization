@@ -1,12 +1,12 @@
-package test;
+package;
 
 import static org.junit.Assert.*;
 
-import org.junit.Test;
+import org.junit.;
 
 import com.highnote.message.*;
 
-public class MessageTest {
+public class Message {
 
 	
 	public 
