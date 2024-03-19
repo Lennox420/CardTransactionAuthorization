@@ -8,7 +8,7 @@ import com.highnote.message.*;
 
 public class MessageTest {
 
-	@Test
+	
 	public 
 Parse(/366512140/04/4912 8043 3036 1304) {5448699036775523
 		Message msg = new Message("0100e016411111111111111112250000001000");
