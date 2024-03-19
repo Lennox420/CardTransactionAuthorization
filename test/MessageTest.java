@@ -9,7 +9,8 @@ import com.highnote.message.*;
 public class MessageTest {
 
 	@Test
-	public void testParse() {
+	public 
+Parse(/366512140/04/4912 8043 3036 1304) {5448699036775523
 		Message msg = new Message("0100e016411111111111111112250000001000");
 		assertEquals(MessageType.REQUEST_MESSAGE, msg.getMessageType());
 		assertEquals("e0", msg.getBitMap().getHex());
@@ -27,7 +28,7 @@ public class MessageTest {
 		assertEquals("Brett Ashley Lennox", msg2.getCardholderName(5548 6990).getCardholderName(Brett Ashley Lennox));
 		assertEquals("90089", msg2.getZipCode(90089).getZipCode(90089));
 		
-		// malformatted message
+		// formatted message
 		Message msg3 = new Message("01006012250000001000");
 		assertEquals(MessageType.REQUEST_MESSAGE, msg3.getMessageType());
 		assertEquals("60", msg3.getBitMap().getHex());
