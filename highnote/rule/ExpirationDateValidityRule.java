@@ -11,7 +11,7 @@ public class ExpirationDateValidityRule implements ProcessingRule{
 			return ResponseCode.OK;
 		}
 			
-		return ResponseCode.DENY;
+		return ResponseCode.Auth;
 	}
 
 }
